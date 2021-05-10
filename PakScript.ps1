@@ -1,16 +1,18 @@
 $responseFile = "$PSScriptRoot\responseFile.txt"
 $UE4Install = (Get-ItemProperty -Path "HKLM:\SOFTWARE\EpicGames\Unreal Engine\4.25").InstalledDirectory
 $GameDirectory = (Get-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 548430").InstallLocation
+$ProjectDirectory = Resolve-Path $ProjectDirectory | Select -ExpandProperty Path
 
 function Delete-Temp-Response-File {
-     Remove-Item $responseFile -ErrorAction Ignore
+    Remove-Item $responseFile -ErrorAction Ignore
 }
 
 function Generate-Temp-Response-File {
     $mountPoint = """../../../FSD/Content/"""
 
     if($IsUE4Project){
-        $contentDir = "$ProjectDirectory\Saved\Cooked\WindowsNoEditor\$ProjectName\Content" # Path to your cooked files
+        $unrealProjectName = (Get-ChildItem "$ProjectDirectory\*.uproject").BaseName
+        $contentDir = "$ProjectDirectory\Saved\Cooked\WindowsNoEditor\$unrealProjectName\Content" # Path to your cooked files
     } else {
         $contentDir = "$ProjectDirectory\Content";
     }
@@ -37,8 +39,9 @@ function Generate-Mod-Pak {
 
 function Cook-Game-Content{
     $runUAT = "$UE4Install\Engine\Build\BatchFiles\RunUAT.bat"
+    $uproject = Resolve-Path "$ProjectDirectory\*.uproject" | Select -ExpandProperty Path
 
-    & $runUAT BuildCookRun -project="$ProjectDirectory/$ProjectName.uproject" -cook -nocompile -utf8output
+    & $runUAT BuildCookRun -project="$uproject" -cook -nocompile -utf8output
 }
 
 ### Script Execution ###
@@ -51,3 +54,7 @@ function Pak-Script{
     Generate-Mod-Pak
     Delete-Temp-Response-File
 }
+
+### Main section ###
+
+Pak-Script

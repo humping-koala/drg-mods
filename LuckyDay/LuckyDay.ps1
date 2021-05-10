@@ -1,3 +1,5 @@
+Set-Location $PSScriptRoot # Change working directory to script location
+
 ### Project-specific variables ###
 
 $ProjectVersion = "1.0"
@@ -8,7 +10,6 @@ $FilesToPak = @('GD_SpecialEventSettings', 'GD_TreasureSettings') # List of file
 
 ### Import and execute the pak script ###
 
-$PakScript = "..\_PakScript.ps1" # Assuming the PakScript is located in the parent directory
+$PakScript = "..\PakScript.ps1" # Assuming the PakScript is located in the parent directory
 
 . $PakScript # Assuming the PakScript is located in the parent directory
-Pak-Script
