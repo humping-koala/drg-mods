@@ -12,4 +12,4 @@ $FilesToPak = @('GD_SpecialEventSettings', 'GD_TreasureSettings') # List of file
 
 $PakScript = "..\PakScript.ps1" # Assuming the PakScript is located in the parent directory
 
-. $PakScript # Assuming the PakScript is located in the parent directory
+. $PakScript

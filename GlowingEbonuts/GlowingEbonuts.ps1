@@ -16,4 +16,4 @@ $FilesToPak = @('SM_Ebonut_shell_01', 'SM_Ebonut_shell_02', 'SM_Ebonut_shell_03'
 
 $PakScript = "..\PakScript.ps1" # Assuming the PakScript is located in the parent directory
 
-. $PakScript # Assuming the PakScript is located in the parent directory
+. $PakScript
