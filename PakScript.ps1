@@ -25,16 +25,22 @@ function Generate-Temp-Response-File {
 
 function Generate-Mod-Pak {
     $pakName = "$ProjectName - V$ProjectVersion _P.pak"
-    $pakPath = "$GameDirectory\FSD\Content\Paks\$pakName"
     $unrealPak = "$UE4Install\Engine\Binaries\Win64\UnrealPak.exe"
+    $buildPathPath = "$PSScriptRoot\build\$pakName"
+    $gamePakPath = "$GameDirectory\FSD\Content\Paks\$pakName"
 
-    echo "Generating mod pak: $pakPath`n"
+    echo "Generating mod pak: $buildPathPath`n"
 
     # Create Pak
-    & $unrealPak "$pakPath" -Create="$responseFile"
+    & $unrealPak "$buildPathPath" -Create="$responseFile"
 
     # List Pak
-    & $unrealPak "$pakPath" -List
+    & $unrealPak "$buildPathPath" -List
+
+    # Copy to game's directory
+    
+    echo "Copying mod pak to game directory: $gamePakPath`n"
+    Copy-Item "$buildPathPath" -Destination "$gamePakPath"
 }
 
 function Cook-Game-Content{
