@@ -1,4 +1,6 @@
-# Deep Rock Galactic mods
+# ⛏ Deep Rock Galactic mods ⛏
+
+A collection of mods of mine that were deemed too radical for mainstream circles and consequently expelled. This repository contains both ready to use pak builds as well as source files that were used to build them.
 
 ## 🛠 Installation
 
@@ -11,8 +13,8 @@ Download and place `.pak` file into `%DeepRockGalactic%\FSD\Content\Paks`
 - 🏴‍☠️ **[Deep Rock Piracy]**: Unlocks all DLCs except the Supporter Upgrade. No idea how to unlock that one. **Use at your own risk!** Support the devs and buy the DLCs if you can.
 
 ## 📜 Scripts
-All mods are packaged via the help of powershell scripts. Each mod directory contains [its own ps1 script](./GlowingEbonuts/GlowingEbonuts.ps1) which defines mod-specific parameters and executes [PakScript.ps1](./PakScript.ps1). The PakScript is capable of automatically determining Unreal Engine 4.25 install location as well as DRG's install location (Steam edition), where it saves the resulting pak file.
-
+All mods are packaged via the help of powershell scripts. Each mod directory contains [its own ps1 script](./GlowingEbonuts/GlowingEbonuts.ps1) which defines mod-specific parameters and executes [PakScript.ps1](./PakScript.ps1).
+The PakScript is capable of automatically determining Unreal Engine 4.25 install location as well as DRG's install location (Steam edition), where it saves the resulting pak file.
 The script supports paking both UE4 project-based mods and hex-edited mods. In case of UE4 project-based mods, it will cook the game content first, before packaging it.
 
 [Show Events]: https://github.com/ArcticEcho/DRG-Mods/tree/c91790e4bf2d70006ef3d911ab97fac67fd5f232/Quality%20of%20Life/HUD#show-events---v111
