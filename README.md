@@ -2,7 +2,7 @@
 
 ## 🛠 Installation
 
-Download and place at `%DeepRockGalactic%\FSD\Content\Paks`
+Download and place `.pak` file into `%DeepRockGalactic%\FSD\Content\Paks`
 
 ## 📚 Mods
 > Click on the mod's name to download it
@@ -11,7 +11,7 @@ Download and place at `%DeepRockGalactic%\FSD\Content\Paks`
 - 🏴‍☠️ [**Deep Rock Piracy**]: Unlocks all DLCs except the Supporter Upgrade. No idea how to unlock that one. **Use at your own risk!** Support the devs and buy the DLCs if you can.
 
 ## 📜 Scripts
-All mods are packaged via the help of powershell scripts. Each mod directory contains its own ps1 script which defines mod-specific parameters and executes [PakScript.ps1](./PakScript.ps1). The PakScript is capable of automatically determining Unreal Engine 4.25 install location as well as DRG's install location (Steam edition), where it saves the resulting pak file.
+All mods are packaged via the help of powershell scripts. Each mod directory contains [its own ps1 script](./GlowingEbonuts/GlowingEbonuts.ps1) which defines mod-specific parameters and executes [PakScript.ps1](./PakScript.ps1). The PakScript is capable of automatically determining Unreal Engine 4.25 install location as well as DRG's install location (Steam edition), where it saves the resulting pak file.
 
 The script supports "paking" both UE4 project-based mods and hex-edited mods.
 
