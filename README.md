@@ -12,6 +12,7 @@ Download and place `.pak` file into `%DeepRockGalactic%\FSD\Content\Paks`
 - 🍀 **[Lucky Day]**: Guarantees spawn of *Machine Events*, *Cargo Crates* and *Lost Loot Packs* on any map. In rare occasions the events might not actually spawn. Use [Show Events] mod to check the spawns.
 - 🏴‍☠️ **[Deep Rock Piracy]**: Unlocks all DLCs except the Supporter Upgrade. No idea how to unlock that one. **Use at your own risk!** Support the devs and buy the DLCs if you can.
 - 🟥 **[Nitra Infestation]**: Spawns massive number of nitra veins all over the map.
+- 🚫 **[No more gold]**: Disables spawn of gold veins on the map.
 
 ## 📜 Scripts
 All mods are packaged via the help of powershell scripts. Each mod directory contains [its own ps1 script](./GlowingEbonuts/GlowingEbonuts.ps1) which defines mod-specific parameters and executes [PakScript.ps1](./PakScript.ps1).
@@ -24,3 +25,4 @@ The script supports paking both UE4 project-based mods and hex-edited mods. In c
 [Lucky Day]: https://github.com/humping-koala/drg-mods/raw/master/build/Lucky%20Day%20-%20V1.0%20_P.pak
 [Deep Rock Piracy]: https://github.com/humping-koala/drg-mods/raw/master/build/Deep%20Rock%20Piracy%20-%20V1.0%20_P.pak
 [Nitra Infestation]: https://github.com/humping-koala/drg-mods/raw/master/build/Nitra%20Infestation%20-%20V1.0%20_P.pak
+[No more gold]: https://github.com/humping-koala/drg-mods/raw/master/build/No%20more%20gold%20-%20V1.0%20_P.pak
