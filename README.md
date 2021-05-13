@@ -12,7 +12,7 @@ Download and place `.pak` file into `%DeepRockGalactic%\FSD\Content\Paks`
 - 🍀 **[Lucky Day]**: Guarantees spawn of *Machine Events*, *Cargo Crates* and *Lost Loot Packs* on any map. You can also use [Show Events] mod to check the spawns.
 - 🏴‍☠️ **[Deep Rock Piracy]**: Unlocks all DLCs except the Supporter Upgrade. No idea how to unlock that one. **Use at your own risk!** Support the devs and buy the DLCs if you can.
 - ♦️ **[Nitra Infestation]**: Spawns large number of nitra veins all over the map.
-- 🚫 **[No more gold]**: Disables spawn of gold veins on the map.
+- 🚫 **[No more gold]**: Disables spawn of gold veins on the map. **IMPORTANT**: I've discovered that when used as a client, this mod makes all veins invisible. So don't use this one yet if you are joining someone else.
 
 ## 📜 Scripts
 All mods are packaged via the help of powershell scripts. Each mod directory contains [its own ps1 script](./GlowingEbonuts/GlowingEbonuts.ps1) which defines mod-specific parameters and executes [PakScript.ps1](./PakScript.ps1).
