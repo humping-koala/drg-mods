@@ -11,3 +11,7 @@ It works by replacing key values in respective curve files to 1.0 which makes sp
   - 0.1 -> 1.0
   - 0.16666 -> 1.0
   - 0.33333 -> 1.0
+
+## Changelog
+- **1.0**: Initial release.
+- **1.1**: Hopefully fixed an issue where cargo crates or lost loot packs sometimes would not spawn.
