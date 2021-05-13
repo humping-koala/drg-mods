@@ -2,7 +2,7 @@ Set-Location $PSScriptRoot # Change working directory to script location
 
 ### Project-specific variables ###
 
-$ProjectVersion = "1.0"
+$ProjectVersion = "1.1"
 $ProjectName = "Glowing Ebonuts" # Name of your Unreal Engine 4 project
 $ProjectDirectory = "." # Path to your Unreal Engine 4 project / Content folder. Current directory by default.
 $IsUE4Project = $true # If set to $true, Unreal Automation Tool will be used to cook the project first and pak the resulting files

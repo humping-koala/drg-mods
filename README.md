@@ -8,7 +8,7 @@ Download and place `.pak` file into `%DeepRockGalactic%\FSD\Content\Paks`
 
 ## 📚 Mods
 > Click on the mod's name to download it
-- 🥜 **[Glowing Ebonuts]**: Replaces the texture of ebonuts with the one from Apoca Bloom that emits green light, making them significantly more noticeable.
+- 🥜 **[Glowing Ebonuts]**: Replaces the material of ebonut shells with the one from Ebonut sockets, which emits biege-purple light, making them significantly more noticeable. If you want the older version that was emitting light-green light, you can still get it here: [Glowing Ebonuts - V1.0].
 - 🍀 **[Lucky Day]**: Guarantees spawn of *Machine Events*, *Cargo Crates* and *Lost Loot Packs* on any map. You can also use [Show Events] mod to check the spawns.
 - 🏴‍☠️ **[Deep Rock Piracy]**: Unlocks all DLCs except the Supporter Upgrade. No idea how to unlock that one. **Use at your own risk!** Support the devs and buy the DLCs if you can.
 - 🟥 **[Nitra Infestation]**: Spawns massive number of nitra veins all over the map.
@@ -21,7 +21,8 @@ The script supports paking both UE4 project-based mods and hex-edited mods. In c
 
 [Show Events]: https://github.com/ArcticEcho/DRG-Mods/tree/c91790e4bf2d70006ef3d911ab97fac67fd5f232/Quality%20of%20Life/HUD#show-events---v111
 
-[Glowing Ebonuts]: https://github.com/humping-koala/drg-mods/raw/master/build/Glowing%20Ebonuts%20-%20V1.0%20_P.pak
+[Glowing Ebonuts]: https://github.com/humping-koala/drg-mods/raw/master/build/Glowing%20Ebonuts%20-%20V1.1%20_P.pak
+[Glowing Ebonuts - V1.0]: https://github.com/humping-koala/drg-mods/raw/master/build/Glowing%20Ebonuts%20-%20V1.0%20_P.pak
 [Lucky Day]: https://github.com/humping-koala/drg-mods/raw/master/build/Lucky%20Day%20-%20V1.1%20_P.pak
 [Deep Rock Piracy]: https://github.com/humping-koala/drg-mods/raw/master/build/Deep%20Rock%20Piracy%20-%20V1.0%20_P.pak
 [Nitra Infestation]: https://github.com/humping-koala/drg-mods/raw/master/build/Nitra%20Infestation%20-%20V1.0%20_P.pak
