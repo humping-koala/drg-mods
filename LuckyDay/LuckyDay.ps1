@@ -2,7 +2,7 @@ Set-Location $PSScriptRoot # Change working directory to script location
 
 ### Project-specific variables ###
 
-$ProjectVersion = "1.0"
+$ProjectVersion = "1.1"
 $ProjectName = "Lucky Day" # Name of your mod.
 $ProjectDirectory = "." # Path to your Unreal Engine 4 project / Content folder. Current directory by default.
 $IsUE4Project = $false # If set to $true, Unreal Automation Tool will be used to cook the project first and pak the resulting files
