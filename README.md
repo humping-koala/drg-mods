@@ -9,7 +9,7 @@ Download and place `.pak` file into `%DeepRockGalactic%\FSD\Content\Paks`
 ## 📚 Mods
 > Click on the mod's name to download it
 - 🥜 **[Glowing Ebonuts]**: Replaces the texture of ebonuts with the one from Apoca Bloom that emits green light, making them significantly more noticeable.
-- 🍀 **[Lucky Day]**: Guarantees spawn of *Machine Events*, *Cargo Crates* and *Lost Loot Packs* on any map. In rare occasions the events might not actually spawn. Use [Show Events] mod to check the spawns.
+- 🍀 **[Lucky Day]**: Guarantees spawn of *Machine Events*, *Cargo Crates* and *Lost Loot Packs* on any map. You can also use [Show Events] mod to check the spawns.
 - 🏴‍☠️ **[Deep Rock Piracy]**: Unlocks all DLCs except the Supporter Upgrade. No idea how to unlock that one. **Use at your own risk!** Support the devs and buy the DLCs if you can.
 - 🟥 **[Nitra Infestation]**: Spawns massive number of nitra veins all over the map.
 - 🚫 **[No more gold]**: Disables spawn of gold veins on the map.
