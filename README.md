@@ -1,10 +1,10 @@
 # ⛏ Deep Rock Galactic mods ⛏
 
-A collection of mods of mine that were deemed too radical for mainstream circles and consequently expelled. This repository contains both ready to use pak builds as well as source files that were used to build them.
+A collection of mods of mine that were deemed too radical for mainstream circles and consequently expelled. This repository contains both ready to use pak builds as well as source files that were used to build them. Each mod directory contains a README file which specifies technical details about the mod and what changes were made. The [build](./build) directory contains *pak* builds for all these mods. 
 
 ## 🛠 Installation
 
-Download and place `.pak` file into `%DeepRockGalactic%\FSD\Content\Paks`
+Download and place `.pak` file into `%DeepRockGalactic%\FSD\Content\Paks`, where `%DeepRockGalactic%` is the root folder where the game is installed. 
 
 ## 📚 Mods
 > Click on the mod's name to download it
