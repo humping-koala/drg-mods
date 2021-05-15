@@ -1,10 +1,5 @@
 # Lucky Day
 
-For the purposes of customization, this mod is separated into several parts:
-- **Lucky Day For Critters**: Guarantees spawn of *Huuli Hoarders* and *Golden Lootbugs*.
-- **Lucky Day For Events**: Guarantees spawn of *Machine Events*.
-- **Lucky Day For Treasures**: Guarantees spawn of *Cargo Crates* and *Lost Loot Packs*.
-
 It works by replacing certain values in respective GameData files to 1.0 which makes spawn chance 100%.
 
 ## **Hex edits**:

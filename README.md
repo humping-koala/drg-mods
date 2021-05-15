@@ -8,8 +8,15 @@ Download and place `.pak` file into `%DeepRockGalactic%\FSD\Content\Paks`
 
 ## 📚 Mods
 > Click on the mod's name to download it
-- 🥜 **[Glowing Ebonuts]**: Replaces the material of ebonut shells with the one from Ebonut sockets, which emits biege-purple light, making them significantly more noticeable. If you want the older version that was emitting light-green light, you can still get it here: [Glowing Ebonuts - V1.0].
-- 🍀 **[Lucky Day]**: Guarantees spawn of *Machine Events*, *Cargo Crates* and *Lost Loot Packs* on any map. You can also use [Show Events] mod to check the spawns.
+- 🥜 **[Glowing Ebonuts]**: Replaces the material of ebonut shells with the one from Ebonut sockets, which emits biege-purple light, making them significantly more noticeable. If you want the older version that was emitting white-green light, you can still get it here: [Glowing Ebonuts - V1.0].
+- 🍀 **Lucky Day**: Guarantees spawn of certain game elements. For customization puropses, the mod is separated into several parts, so you can enable only the elements that you would like.
+  - **[Lucky Day For Critters]**: Guarantees spawn of *Huuli Hoarders* and *Golden Lootbugs*.
+  - **[Lucky Day For Events]**: Guarantees spawn of *Machine Events*.
+  - **[Lucky Day For Treasures]**: Guarantees spawn of *Cargo Crates* and *Lost Loot Packs*.
+- ☔ **Unlucky Day**: Counterpart to the Lucky Day mod.
+  - **[Unlucky Day For Critters]**: Disables spawn of *Huuli Hoarders* and *Golden Lootbugs*.
+  - **[Unlucky Day For Events]**: Disables spawn of *Machine Events*.
+  - **[Unlucky Day For Treasures]**: Disables spawn of *Cargo Crates* and *Lost Loot Packs*.
 - 🏴‍☠️ **[Deep Rock Piracy]**: Unlocks all DLCs except the Supporter Upgrade. No idea how to unlock that one. **Use at your own risk!** Support the devs and buy the DLCs if you can.
 - ♦️ **[Nitra Infestation]**: Spawns large number of nitra veins all over the map.
 - 🚫 ~~**[No more gold]**: Disables spawn of gold veins on the map.~~ **This mod is broken, so don't use it yet.**
@@ -24,7 +31,12 @@ The script supports paking both UE4 project-based mods and hex-edited mods. In c
 
 [Glowing Ebonuts]: https://github.com/humping-koala/drg-mods/raw/master/build/Glowing%20Ebonuts%20-%20V1.1%20_P.pak
 [Glowing Ebonuts - V1.0]: https://github.com/humping-koala/drg-mods/raw/master/build/Glowing%20Ebonuts%20-%20V1.0%20_P.pak
-[Lucky Day]: https://github.com/humping-koala/drg-mods/raw/master/build/Lucky%20Day%20-%20V1.1%20_P.pak
+[Lucky Day For Critters]: https://github.com/humping-koala/drg-mods/raw/master/build/Lucky%20Day%20For%20Critters%20-%20V1.0%20_P.pak
+[Lucky Day For Events]: https://github.com/humping-koala/drg-mods/raw/master/build/Lucky%20Day%20For%20Events%20-%20V1.0%20_P.pak
+[Lucky Day For Treasures]: https://github.com/humping-koala/drg-mods/raw/master/build/Lucky%20Day%20For%20Treasures%20-%20V1.0%20_P.pak
+[Unlucky Day For Critters]: https://github.com/humping-koala/drg-mods/raw/master/build/Unlucky%20Day%20For%20Critters%20-%20V1.0%20_P.pak
+[Unlucky Day For Events]: https://github.com/humping-koala/drg-mods/raw/master/build/Unlucky%20Day%20For%20Events%20-%20V1.0%20_P.pak
+[Unlucky Day For Treasures]: https://github.com/humping-koala/drg-mods/raw/master/build/Unlucky%20Day%20For%20Treasures%20-%20V1.0%20_P.pak
 [Deep Rock Piracy]: https://github.com/humping-koala/drg-mods/raw/master/build/Deep%20Rock%20Piracy%20-%20V1.0%20_P.pak
 [Nitra Infestation]: https://github.com/humping-koala/drg-mods/raw/master/build/Nitra%20Infestation%20-%20V1.0%20_P.pak
 [No more gold]: https://github.com/humping-koala/drg-mods/raw/master/build/No%20more%20gold%20-%20V1.0%20_P.pak
