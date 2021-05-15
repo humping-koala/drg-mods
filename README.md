@@ -28,4 +28,4 @@ The script supports paking both UE4 project-based mods and hex-edited mods. In c
 [Deep Rock Piracy]: https://github.com/humping-koala/drg-mods/raw/master/build/Deep%20Rock%20Piracy%20-%20V1.0%20_P.pak
 [Nitra Infestation]: https://github.com/humping-koala/drg-mods/raw/master/build/Nitra%20Infestation%20-%20V1.0%20_P.pak
 [No more gold]: https://github.com/humping-koala/drg-mods/raw/master/build/No%20more%20gold%20-%20V1.0%20_P.pak
-[Power of Friendship]: https://github.com/humping-koala/drg-mods/raw/master/build/Power%20of%20Friendship%20gold%20-%20V1.0%20_P.pak
+[Power of Friendship]: https://github.com/humping-koala/drg-mods/raw/master/build/Power%20of%20Friendship%20-%20V1.0%20_P.pak
