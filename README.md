@@ -13,7 +13,7 @@ Download and place `.pak` file into `%DeepRockGalactic%\FSD\Content\Paks`
   - **[Lucky Day For Critters]**: Guarantees spawn of *Huuli Hoarders* and *Golden Lootbugs*.
   - **[Lucky Day For Events]**: Guarantees spawn of *Machine Events*.
   - **[Lucky Day For Treasures]**: Guarantees spawn of *Cargo Crates* and *Lost Loot Packs*.
-- ☔ **Unlucky Day**: Counterpart to the Lucky Day mod.
+- ☔ **Unlucky Day**: Counterpart to the Lucky Day mod. If both Lucky & Unlucky Day mods are installed for the same game element, the Unlucky variant will be used.
   - **[Unlucky Day For Critters]**: Disables spawn of *Huuli Hoarders* and *Golden Lootbugs*.
   - **[Unlucky Day For Events]**: Disables spawn of *Machine Events*.
   - **[Unlucky Day For Treasures]**: Disables spawn of *Cargo Crates* and *Lost Loot Packs*.
