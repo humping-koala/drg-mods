@@ -21,6 +21,7 @@ Download and place `.pak` file into `%DeepRockGalactic%\FSD\Content\Paks`, where
 - ♦️ **[Nitra Infestation]**: Spawns large number of nitra veins all over the map.
 - 🚫 ~~**[No more gold]**: Disables spawn of gold veins on the map.~~ **This mod is broken, so don't use it yet.**
 - 🤝🏼 **[Power of Friendship]**: Removes friendly fire from the game. No need to worry about greenbeards nuking the hell out of you anymore. Damage-over-time afflictions such as fire will still deal damage if inflicted by a fellow dwarf. 
+- 🖼 **[MarcusGray Posters]**: Replaces the original propaganda posters with the **Deep Rock Gals** posters made by *Marcus Gray*. [Preview](https://cdn.discordapp.com/attachments/712637678881079369/843439867048624148/20210516134613_1.jpg).
 
 ## 📜 Scripts
 All mods are packaged via the help of powershell scripts. Each mod directory contains [its own ps1 script](./GlowingEbonuts/GlowingEbonuts.ps1) which defines mod-specific parameters and executes [PakScript.ps1](./PakScript.ps1).
@@ -41,3 +42,4 @@ The script supports paking both UE4 project-based mods and hex-edited mods. In c
 [Nitra Infestation]: https://github.com/humping-koala/drg-mods/raw/master/build/Nitra%20Infestation%20-%20V1.0%20_P.pak
 [No more gold]: https://github.com/humping-koala/drg-mods/raw/master/build/No%20more%20gold%20-%20V1.0%20_P.pak
 [Power of Friendship]: https://github.com/humping-koala/drg-mods/raw/master/build/Power%20of%20Friendship%20-%20V1.0%20_P.pak
+[MarcusGray Posters]: https://github.com/humping-koala/drg-mods/raw/master/build/MarcusGray%20Posters%20-%20V1.0%20_P.pak
