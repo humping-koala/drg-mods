@@ -1,6 +1,6 @@
 # ⛏ Deep Rock Galactic mods ⛏
 
-A collection of mods of mine that were deemed too radical for mainstream circles and consequently expelled. This repository contains both ready to use pak builds as well as source files that were used to build them. Each mod directory contains a README file which specifies technical details about the mod and what changes were made. The [build](./build) directory contains *pak* builds for all these mods. 
+A collection of mods of mine, some of which were deemed too radical for mainstream circles and consequently expelled. This repository contains both ready to use pak builds as well as source files that were used to build them. Each mod directory contains a README file which specifies technical details about the mod and what changes were made. The [build](./build) directory contains *pak* builds for all these mods. 
 
 ## 🛠 Installation
 

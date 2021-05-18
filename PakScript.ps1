@@ -21,6 +21,8 @@ Validate-Variable ProjectDirectory
 Validate-Variable IsUE4Project
 Validate-Variable FilesToPak $true
 
+### Core definitions and functions ###
+
 $responseFile = "$PSScriptRoot\.ResponseFile.txt"
 $UE4Install = (Get-ItemProperty -Path "HKLM:\SOFTWARE\EpicGames\Unreal Engine\4.25").InstalledDirectory
 $GameDirectory = (Get-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 548430").InstallLocation
