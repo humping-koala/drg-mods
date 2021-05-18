@@ -1,4 +1,27 @@
-$responseFile = "$PSScriptRoot\responseFile.txt"
+### Variable Validation ###
+
+function Validate-Variable($VAR_NAME, $IS_ARRAY = $false) {
+    $VAR_VALUE = (Get-Variable -Name $VAR_NAME -ErrorAction SilentlyContinue).Value
+    if ([string]::IsNullOrWhiteSpace($VAR_VALUE)) {
+        Write-Error "Required variable: '$VAR_NAME' was not defined."
+        exit
+    }
+    elseif ($IS_ARRAY -and (-not ($VAR_VALUE -is [array]))) {
+        Write-Error "Variable: 'FilesToPak' must be of array type."
+        exit
+    }
+    else {
+        Write-Output "$VAR_NAME`: $VAR_VALUE"
+    }
+}
+
+Validate-Variable ProjectName
+Validate-Variable ProjectVersion
+Validate-Variable ProjectDirectory
+Validate-Variable IsUE4Project
+Validate-Variable FilesToPak $true
+
+$responseFile = "$PSScriptRoot\.ResponseFile.txt"
 $UE4Install = (Get-ItemProperty -Path "HKLM:\SOFTWARE\EpicGames\Unreal Engine\4.25").InstalledDirectory
 $GameDirectory = (Get-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 548430").InstallLocation
 $ProjectDirectory = Resolve-Path $ProjectDirectory | Select -ExpandProperty Path
@@ -10,10 +33,11 @@ function Delete-Temp-Response-File {
 function Generate-Temp-Response-File {
     $mountPoint = """../../../FSD/Content/"""
 
-    if($IsUE4Project){
+    if ($IsUE4Project) {
         $unrealProjectName = (Get-ChildItem "$ProjectDirectory\*.uproject").BaseName
         $contentDir = "$ProjectDirectory\Saved\Cooked\WindowsNoEditor\$unrealProjectName\Content" # Path to your cooked files
-    } else {
+    }
+    else {
         $contentDir = "$ProjectDirectory\Content";
     }
     Delete-Temp-Response-File
@@ -43,24 +67,19 @@ function Generate-Mod-Pak {
     Copy-Item "$buildPathPath" -Destination "$gamePakPath"
 }
 
-function Cook-Game-Content{
+function Cook-Game-Content {
     $runUAT = "$UE4Install\Engine\Build\BatchFiles\RunUAT.bat"
     $uproject = Resolve-Path "$ProjectDirectory\*.uproject" | Select -ExpandProperty Path
 
     & $runUAT BuildCookRun -project="$uproject" -cook -nocompile -utf8output
 }
 
-### Script Execution ###
-
-function Pak-Script{
-    if($IsUE4Project){
-        Cook-Game-Content
-    }
-    Generate-Temp-Response-File
-    Generate-Mod-Pak
-    Delete-Temp-Response-File
-}
-
 ### Main section ###
 
-Pak-Script
+if ($IsUE4Project) {
+    Cook-Game-Content
+}
+Generate-Temp-Response-File
+Generate-Mod-Pak
+Delete-Temp-Response-File
+exit
