@@ -6,6 +6,6 @@ The above-mentioned statement is true when hosting a game. However, when used as
 it introduces a host of weird bugs, such as fake nitra & gold veins being shown
 while the real nitra & gold veins become invisible. So for now this mod is not working properly.
 
-## **Hex edits**:
+## **Binary edits**:
 - *RES_VEIN_Gold.uasset*
   - "TTP_Rock" -> "TTP_Gold"

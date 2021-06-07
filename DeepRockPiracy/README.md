@@ -3,7 +3,7 @@
 It works by replacing App ID of each DLC with the one of [Steamworks SDK].
 Unfortunately Supporter Upgrade doesn't get unlocked with this approach.
 
-## **Hex edits**:
+## **Binary edits**:
 - *DLC_DarkFuture.uexp*
   - 1283090 -> 1007
 - *DLC_DawnOfTheDread_DLC04.uexp*

@@ -7,7 +7,7 @@ For the purposes of customization, this mod is separated into several parts:
 
 It works by replacing certain values in respective GameData files to 0.0 which makes spawn chance 0%.
 
-## **Hex edits**:
+## **Biniary edits**:
 - *GD_SpecialEventSettings.uexp*
   - 0.15 -> 0.0
   - 0.25 -> 0.0

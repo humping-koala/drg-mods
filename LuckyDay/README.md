@@ -2,7 +2,7 @@
 
 It works by replacing certain values in respective GameData files to 1.0 which makes spawn chance 100%.
 
-## **Hex edits**:
+## **Binary edits**:
 - *GD_SpecialEventSettings.uexp*
   - 0.15 -> 1.0
   - 0.25 -> 1.0
