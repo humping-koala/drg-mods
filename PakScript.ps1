@@ -34,12 +34,15 @@ function Delete-Temp-Response-File {
 
 function Generate-Temp-Response-File {
     $mountPoint = """../../../FSD/Content/"""
+    $extraContent = "$ProjectDirectory\ExtraContent"
 
     if ($IsUE4Project) {
         $unrealProjectName = (Get-ChildItem "$ProjectDirectory\*.uproject").BaseName
         $contentDir = "$ProjectDirectory\Saved\Cooked\WindowsNoEditor\$unrealProjectName\Content" # Path to your cooked files
-    }
-    else {
+        
+        # Copy the extra files to the cooked directory
+        Get-ChildItem $extraContent | Copy-Item -Destination $contentDir -Recurse -Force
+    } else {
         $contentDir = "$ProjectDirectory\Content";
     }
     Delete-Temp-Response-File
@@ -79,9 +82,17 @@ function Cook-Game-Content {
 ### Main section ###
 
 if ($IsUE4Project) {
-    Cook-Game-Content
+    if($SkipCooking){
+        echo "Skipping cooking of the unreal project"
+    } else {
+        Cook-Game-Content
+    }
 }
 Generate-Temp-Response-File
 Generate-Mod-Pak
 Delete-Temp-Response-File
+
+if($LaunchGame){
+    explorer.exe "steam://rungameid/548430"
+}
 exit
