@@ -21,7 +21,7 @@ Download and place `.pak` file into `%DeepRockGalactic%\FSD\Content\Paks`, where
 - ♦️ **[Nitra Infestation]**: Spawns large number of nitra veins all over the map.
 - 🤝🏼 **[Power of Friendship]**: Removes friendly fire from the game. No need to worry about greenbeards nuking the hell out of you anymore. Damage-over-time afflictions such as fire will still deal damage if inflicted by a fellow dwarf. 
 - 🖼 **[MarcusGray Posters]**: Replaces the texture of propaganda posters found in Memorial Hall and across the Space Rig with the posters made by *Marcus Gray*. [Preview 1](https://cdn.discordapp.com/attachments/712637678881079369/843439867048624148/20210516134613_1.jpg). [Preview 2](https://cdn.discordapp.com/attachments/712637678881079369/846713570515484702/20210525143408_1.jpg).
-- 💪 **[MarcusGray Tattoos]**: Replaces the textures of tattoos on arms that come with the Roughneck armours with the gals from the posters made by *Marcus Gray*. [Preview](https://cdn.discordapp.com/attachments/712637678881079369/851468201027305482/right.jpg).
+- 💪 **[MarcusGray Tattoos]**: Replaces the textures of tattoos on arms that come with the Roughneck armors with the gals from the posters made by *Marcus Gray*. [Preview](https://cdn.discordapp.com/attachments/712637678881079369/851468201027305482/right.jpg).
 
 ## 📜 Scripts
 All mods are packaged via the help of powershell scripts. Each mod directory contains [its own ps1 script](./GlowingEbonuts/GlowingEbonuts.ps1) which defines mod-specific parameters and executes [PakScript.ps1](./PakScript.ps1).
