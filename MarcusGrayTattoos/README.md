@@ -1,6 +1,6 @@
 # MarcusGray Tattoos
 
-It works by replacing the texture of tattoos posters with transparent images by Marcus Gray. The dimensions of some tattoos are either `512x512`px or `512x1024`px. The dimensions of replaced textures are either `1024x1024`px or `2048x2048`px. For better positioning, corresponding `TAT_*` files were hex edited to adjust position, scaling and stretching for the new textures. The titling method of all textures was set to `Clamp` in the UE4 editor.
+It works by replacing the texture of tattoos posters with transparent images by Marcus Gray. The dimensions of some tattoos are either `512x512`px or `512x1024`px. The dimensions of replaced textures are either `1024x1024`px or `1024x2048`px. To optimize file size however, max texture size was set to `512`px. For better positioning, corresponding `TAT_*` files were hex edited to adjust position, scaling and stretching for the new textures. The titling method of all textures was set to `Clamp` in the UE4 editor.
 
 ## **Texture replacements**:
 - T_Tattoo_AllForMolly
